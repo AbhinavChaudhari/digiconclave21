@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {	
+	display: inline-block;
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------------
+      						SECTION STYLES
+-------------------------------------------------------------------*/
+
+section { 
+    margin: 10px 0;
+}
+
+section ul {
+	text-align: center;
+}
+
+section a {
+	padding: 7px;
+    color: black;
+}
+
+section a:not(:first-child) {
+	margin-left: 20px;
+}
+
+section i {
+	vertical-align: middle;
+	transition: color .3s ease-in-out;	
+}
+
+section a:nth-child(1):hover i {
+	color: #3B5998;
+}
+
+section a:nth-child(2):hover i {
+	color: #4099FF;
+}
+
+section a:nth-child(3):hover i {
+	color: #007bb6;
+}
+
+section a:nth-child(4):hover i {
+	color: #ccc;
+}
+
+section a:nth-child(5):hover i {
+	color: steelblue;
+}
+
+.p {
+  text-align: center;
+  margin-top: 120px;
+}
+
+#preloader{
+    background: #000 url(../img/priloader.gif) no-repeat center;
+    background-size: 80%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: block;
+}
+label{
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.Width100 {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: -8px;
+  }
+  .bbn100 {
+    width: 100%;
+    padding: 0px;
+    /* margin-bottom: -6px; */
+  }
+  .rlt{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    position: absolute;
+    left: 80%;
+    top: 2%;
+    width: 15%;
+}
+.arr{
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    z-index: 66;
+}
+ 
+
+
+
+button{
+    background-color: #FEC200 !important;
+    border: none;
+    border-color: #FEC200 !important;
+    outline: none;
+    color: black !important; 
+
+    
+
+}
+
+.owl-dots{
+   display: none;
+}
+.ifm{
+    background-image: url(./img/videoc.jpg);
+   
+}
+.desktop{
+    text-align: center;
+    display: none;
+}
+
+
+.width80{
+    
+    height: 30vh;
+}
+
+@media (min-width:576px) {
+    .mobile{
+        display: none;
+    }
+    #Deskpreloader{
+        background: #000 url(./img/Loader1.gif) no-repeat center;
+        background-size: 100%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        display: block;
+      }
+    body{
+        background-color: #ffffff;
+    }
+    .desktop{
+        text-align: center;
+        display: block;
+    }
+
+    .Width100 {
+        width: 100%;
+       
+    
+      }
+  
+      .Width90{
+        width: 90%;
+        height: 90vh;
+        /* padding: 0px;
+        margin-bottom: -6px; */
+      }
+      .bgm{
+          background-image: url(./img/videoc.jpg);
+      }
+      .owlmr{
+          margin: 0 100px;
+      }
+      .mrl{
+          margin-left: 50px;
+      }
+
+      /* contact form  */
+      .cont{
+          margin-top: 180px;
+      }
+      .mmm{
+          margin: 0 90px;
+      }
+      
+
+
+
+}
